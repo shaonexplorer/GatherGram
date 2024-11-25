@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "mauline";
+  src: url(./assets/fonts/mauline.otf);
+}
+
+@font-face {
+  font-family: "maiandra";
+  src: url(./assets/fonts/MAIAN.TTF);
+}
