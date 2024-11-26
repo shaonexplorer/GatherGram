@@ -25,7 +25,7 @@ function Home() {
   const feature = useRef();
 
   return (
-    <div>
+    <>
       <Header
         setShow={setShow}
         setShowMenu={setShowMenu}
@@ -37,7 +37,7 @@ function Home() {
         <Banner setShow={setShow} setShowContactMob={setShowContactMob} />
       </div>
 
-      <div className="md:hidden">
+      <div className="sm:hidden">
         <Swipe />
       </div>
       <div ref={feature}>
@@ -67,7 +67,7 @@ function Home() {
         showMessageMob={showMessageMob}
         setShowMessageMob={setShowMessageMob}
       />
-    </div>
+    </>
   );
 }
 

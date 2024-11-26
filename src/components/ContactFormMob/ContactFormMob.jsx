@@ -10,15 +10,15 @@ function ContactFormMob({
   const [index, setIndex] = useState(1);
   return (
     <div
-      className={`z-40 fixed inset-0 w-[390px] h-[919px] bg-[#D81159] transition-all duration-1000 overflow-hidden ${
+      className={`z-40 fixed inset-0 w-[390px] h-[100%] bg-[#D81159] transition-all duration-1000 overflow-scroll ${
         showContactMob
-          ? "visible opacity-100 translate-y-0  "
+          ? "visible opacity-100 translate-y-0 "
           : "invisible opacity-0  translate-y-[100%]"
       }`}
     >
       {/* header */}
       <div
-        className={`mt-[44px] h-[60px] flex justify-between items-center px-[16px]   `}
+        className={`  h-[60px] flex justify-between items-center px-[16px]   `}
       >
         <div className="flex gap-[5px]">
           <img className="w-[32px] h-[32px]" src={logo}></img>
@@ -43,7 +43,7 @@ function ContactFormMob({
 
       {/* main section */}
 
-      <div className="flex flex-col justify-center items-center gap-[40px] py-[24px] px-[16px]">
+      <div className="flex flex-col justify-center items-center gap-[30px] py-[24px] px-[16px]">
         <div className="flex flex-col gap-[16px] w-full">
           <p className="font-mauline text-[20px] leading-[24px] text-[#FAFAFACC] ">
             Let’s Connect and Get You Started

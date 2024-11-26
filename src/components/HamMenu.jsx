@@ -3,9 +3,9 @@ import logo from "./../assets/logo.png";
 function HamMenu({ showMenu, setShowMenu, setShowContactMob }) {
   return (
     <div
-      className={`z-50 fixed inset-0 w-[390px]  bg-[#FFD6E4]  backdrop-blur-[20px] transition-all duration-[1000ms] overflow-hidden ${
+      className={`z-50 fixed inset-0 w-[390px]  bg-[#FFD6E4]  backdrop-blur-[20px] transition-all duration-[1000ms] overflow-scroll ${
         showMenu
-          ? "visible opacity-100  h-[850px] "
+          ? "visible opacity-100  h-[100%] "
           : "invisible opacity-0  h-0 "
       }`}
     >
@@ -44,7 +44,7 @@ function HamMenu({ showMenu, setShowMenu, setShowContactMob }) {
       {/* menu */}
 
       <div
-        className={`w-[390px] h-[746px] px-[16px] pb-[40px] transition-all duration-[1000ms]  `}
+        className={`w-[390px] h-[746px] px-[16px] pb-[40px] transition-all duration-[1000ms] `}
       >
         <div
           className={`w-[358px] py-[40px] flex flex-col gap-[24px] transition-all duration-[2000ms]  `}
@@ -72,7 +72,7 @@ function HamMenu({ showMenu, setShowMenu, setShowContactMob }) {
             setShowMenu(false);
             setShowContactMob(true);
           }}
-          className={`mt-[282px] w-[358px] h-[48px] rounded-[50px] px-[24px] py-[16px] bg-[#D81159] shadow-[-4px_4px_0px_0px_#000000] font-maiandra text-[14px] text-white leading-[20px]  `}
+          className={`mt-[220px] w-[358px] h-[48px] rounded-[50px] px-[24px] py-[16px] bg-[#D81159] shadow-[-4px_4px_0px_0px_#000000] font-maiandra text-[14px] text-white leading-[20px]  `}
         >
           Register for Free Access
         </button>

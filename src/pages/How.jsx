@@ -40,14 +40,14 @@ function How() {
           }`}
         >
           {index !== 1 && (
-            <div className="flex items-center md:items-start h-[60px] md:h-full ">
-              <div className=" flex w-[80px] h-[76px] rounded-[50px] bg-none sm:bg-white md:mt-[25px] md:mx-[25px] justify-center items-center">
+            <div className="flex items-center sm:items-start h-[60px] sm:h-full ">
+              <div className=" flex w-[80px] h-[76px] rounded-[50px] bg-none sm:bg-white sm:mt-[25px] sm:mx-[25px] justify-center items-center">
                 <img
                   src={ai}
                   className="w-[22px] sm:w-[45.71px] h-[23px] sm:h-[45.04px] absolute sm:relative sm:top-0 sm:left-0 top-[19px] left-[19px]"
                 ></img>
               </div>
-              <p className="md:hidden font-mauline text-xl text-[#ea6e9b] leading-[32px]  ">
+              <p className="sm:hidden font-mauline text-xl text-[#ea6e9b] leading-[32px]  ">
                 Create Your Celebration Hub
               </p>
             </div>
@@ -95,14 +95,14 @@ function How() {
           }`}
         >
           {index !== 2 && (
-            <div className="flex items-center md:items-start h-[60px] md:h-full ">
-              <div className=" flex w-[80px] h-[76px] rounded-[50px] bg-none sm:bg-white md:mt-[25px] md:mx-[25px] justify-center items-center">
+            <div className="flex items-center sm:items-start h-[60px] sm:h-full ">
+              <div className=" flex w-[80px] h-[76px] rounded-[50px] bg-none sm:bg-white sm:mt-[25px] sm:mx-[25px] justify-center items-center">
                 <img
                   src={scan}
                   className="w-[22px] sm:w-[45.71px] h-[23px] sm:h-[45.04px] absolute sm:relative sm:top-0 sm:left-0 top-[19px] left-[19px]"
                 ></img>
               </div>
-              <p className="md:hidden font-mauline text-xl text-[#ea6e9b] leading-[32px]  ">
+              <p className="sm:hidden font-mauline text-xl text-[#ea6e9b] leading-[32px]  ">
                 Share with a Single QR Code
               </p>
             </div>
@@ -150,14 +150,14 @@ function How() {
           }`}
         >
           {index !== 3 && (
-            <div className="flex items-center md:items-start h-[60px] md:h-full ">
-              <div className=" flex w-[80px] h-[76px] rounded-[50px] bg-none sm:bg-white md:mt-[25px] md:mx-[25px] justify-center items-center">
+            <div className="flex items-center sm:items-start h-[60px] sm:h-full ">
+              <div className=" flex w-[80px] h-[76px] rounded-[50px] bg-none sm:bg-white sm:mt-[25px] sm:mx-[25px] justify-center items-center">
                 <img
                   src={juice}
                   className="w-[22px] sm:w-[45.71px] h-[23px] sm:h-[45.04px] absolute sm:relative sm:top-0 sm:left-0 top-[19px] left-[19px]"
                 ></img>
               </div>
-              <p className="md:hidden font-mauline text-xl text-[#ea6e9b] leading-[32px]  ">
+              <p className="sm:hidden font-mauline text-xl text-[#ea6e9b] leading-[32px]  ">
                 Let the Celebration Begin!
               </p>
             </div>

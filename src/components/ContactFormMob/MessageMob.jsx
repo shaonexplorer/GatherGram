@@ -4,7 +4,7 @@ import message from "./../../assets/Contact form/message.gif";
 function MessageMob({ showMessageMob, setShowMessageMob }) {
   return (
     <div
-      className={`z-40 fixed inset-0 w-screen h-screen bg-stone-500/50 backdrop-blur-sm transiton duration-[2000ms] ${
+      className={`z-40 fixed inset-0   bg-stone-500/50 backdrop-blur-sm transiton duration-[2000ms] ${
         showMessageMob ? "visible opacity-100" : "invisible opacity-0"
       }`}
     >

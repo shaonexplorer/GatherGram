@@ -4,7 +4,6 @@ import { Navigation } from "swiper/modules";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
-import { useState } from "react";
 
 import image01 from "./../../../assets/swiper/01.jpeg";
 import image02 from "./../../../assets/swiper/02.jpeg";
@@ -15,11 +14,10 @@ import image06 from "./../../../assets/swiper/06.jpeg";
 import image07 from "./../../../assets/swiper/07.jpeg";
 
 function Swipe() {
-  useState();
   return (
     <>
-      <div className="bg-[#EB87AB]">
-        <div className="flex flex-col bg-[#EB87AB] pt-[160px] pb-[10px]  gap-[40px] mx-[16px] w-[358px]">
+      <div className="bg-[#EB87AB] sm:hidden w-[390px] mx-auto">
+        <div className="flex flex-col bg-[#EB87AB] pt-[160px] pb-[10px]  gap-[40px] px-[16px] mx-auto w-[358px]">
           <p className="text-[40px] leading-[40px] text-white font-mauline text-center">
             Designed with You and Your Guests
             <span className="text-[#D81159]"> in Mind</span>
@@ -37,7 +35,7 @@ function Swipe() {
           modules={[Navigation]}
           centeredSlides={true}
           loop={true}
-          className="transition-all duration-700  h-[850px] bg-[#EB87AB]"
+          className="transition-all duration-700  h-[850px] bg-[#EB87AB] w-[390px]"
         >
           <SwiperSlide>
             {({ isActive }) => (
@@ -64,7 +62,7 @@ function Swipe() {
                 </div>
 
                 <div
-                  className={`z-0 absolute rounded-br-[32px] rounded-bl-[32px] bottom-[5px] px-[16px] pt-20 h-[240px] w-[324px] bg-[#FFD6E4] transition duration-1000 ${
+                  className={`z-0 absolute rounded-br-[32px] rounded-bl-[32px] bottom-[5px] px-[16px] pt-20 h-[240px] w-fit bg-[#FFD6E4] transition duration-1000 ${
                     isActive
                       ? "visible translate-y-0 opacity-100"
                       : "invisible -translate-y-[200%] opacity-0"
@@ -108,7 +106,7 @@ function Swipe() {
                 </div>
 
                 <div
-                  className={`z-0 absolute rounded-br-[32px] rounded-bl-[32px] bottom-[5px] px-[16px] pt-20 h-[240px] w-[324px] bg-[#FFD6E4] transition duration-1000 ${
+                  className={`z-0 absolute rounded-br-[32px] rounded-bl-[32px] bottom-[5px] px-[16px] pt-20 h-[240px] w-fit bg-[#FFD6E4] transition duration-1000 ${
                     isActive
                       ? "visible translate-y-0 opacity-100"
                       : "invisible -translate-y-[200%] opacity-0"
@@ -149,7 +147,7 @@ function Swipe() {
                 </div>
 
                 <div
-                  className={`z-0 absolute rounded-br-[32px] rounded-bl-[32px] bottom-[5px] px-[16px] pt-20 h-[240px] w-[324px] bg-[#FFD6E4] transition duration-1000 ${
+                  className={`z-0 absolute rounded-br-[32px] rounded-bl-[32px] bottom-[5px] px-[16px] pt-20 h-[240px] w-fit bg-[#FFD6E4] transition duration-1000 ${
                     isActive
                       ? "visible translate-y-0 opacity-100"
                       : "invisible -translate-y-[200%] opacity-0"
@@ -190,7 +188,7 @@ function Swipe() {
                 </div>
 
                 <div
-                  className={`z-0 absolute rounded-br-[32px] rounded-bl-[32px] bottom-[5px] px-[16px] pt-20 h-[240px] w-[324px] bg-[#FFD6E4] transition duration-1000 ${
+                  className={`z-0 absolute rounded-br-[32px] rounded-bl-[32px] bottom-[5px] px-[16px] pt-20 h-[240px] w-fit bg-[#FFD6E4] transition duration-1000 ${
                     isActive
                       ? "visible translate-y-0 opacity-100"
                       : "invisible -translate-y-[200%] opacity-0"
@@ -232,7 +230,7 @@ function Swipe() {
                 </div>
 
                 <div
-                  className={`z-0 absolute rounded-br-[32px] rounded-bl-[32px] bottom-[5px] px-[16px] pt-20 h-[240px] w-[324px] bg-[#FFD6E4] transition duration-1000 ${
+                  className={`z-0 absolute rounded-br-[32px] rounded-bl-[32px] bottom-[5px] px-[16px] pt-20 h-[240px] w-fit bg-[#FFD6E4] transition duration-1000 ${
                     isActive
                       ? "visible translate-y-0 opacity-100"
                       : "invisible -translate-y-[200%] opacity-0"
@@ -273,7 +271,7 @@ function Swipe() {
                 </div>
 
                 <div
-                  className={`z-0 absolute rounded-br-[32px] rounded-bl-[32px] bottom-[5px] px-[16px] pt-20 h-[240px] w-[324px] bg-[#FFD6E4] transition duration-1000 ${
+                  className={`z-0 absolute rounded-br-[32px] rounded-bl-[32px] bottom-[5px] px-[16px] pt-20 h-[240px] w-fit bg-[#FFD6E4] transition duration-1000 ${
                     isActive
                       ? "visible translate-y-0 opacity-100"
                       : "invisible -translate-y-[200%] opacity-0"
@@ -314,7 +312,7 @@ function Swipe() {
                 </div>
 
                 <div
-                  className={`z-0 absolute rounded-br-[32px] rounded-bl-[32px] bottom-[5px] px-[16px] pt-20 h-[240px] w-[324px] bg-[#FFD6E4] transition duration-1000 ${
+                  className={`z-0 absolute rounded-br-[32px] rounded-bl-[32px] bottom-[5px] px-[16px] pt-20 h-[240px] w-fit bg-[#FFD6E4] transition duration-1000 ${
                     isActive
                       ? "visible translate-y-0 opacity-100"
                       : "invisible -translate-y-[200%] opacity-0"

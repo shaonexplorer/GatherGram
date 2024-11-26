@@ -5,7 +5,7 @@ import HeroText from "./HeroText";
 
 function Header({ setShow, setShowMenu, setShowContactMob, banner, feature }) {
   return (
-    <div className="relative flex flex-col w-[390px] sm:w-[1728px] h-full sm:h-[1255px] bg-bg bg-cover bg-center sm:mx-auto bg-blend-overlay bg-black/20 ">
+    <div className="relative flex flex-col w-[390px] sm:w-[1728px]   sm:h-[1255px] bg-bg bg-cover bg-center mx-auto bg-blend-overlay bg-black/20 ">
       <div className="sm:hidden block backdrop-blur-[20px]"></div>
       <div className="sm:mx-auto mt-[44px] sm:mt-0 w-[390px] sm:w-[1728px] h-[60px] sm:h-[160px] px-[16px] sm:px-[120px] sm:py-[40px]  flex justify-between items-center backdrop-blur-[20px] ">
         <div className="flex justify-between items-center gap-[5px] sm:gap-[16px] sm:w-[270px] sm:h-[80px]">

@@ -11,14 +11,14 @@ import group05 from "./../assets/Group 1.png";
 
 function Banner({ setShow, setShowContactMob }) {
   return (
-    <div className="w-[390px] h-[1003px] md:w-[1728px] relative mx-auto">
-      <div className="absolute top-[174px] left-[16px] md:left-[122px] md:w-[1485px] h-[532px] flex flex-col items-center gap-[120px]">
-        <div className="flex flex-col w-[358px] md:w-[1485px] md:px-[250px]  gap-[40px]">
-          <p className="font-mauline text-[40px] md:text-[80px] leading-[40px] md:leading-[104px] text-center text-black md:w-[985px]">
+    <div className="w-[390px] h-[1003px] sm:w-[1728px] relative mx-auto">
+      <div className="absolute top-[174px] left-[16px] sm:left-[122px] sm:w-[1485px] h-[532px] flex flex-col items-center gap-[120px]">
+        <div className="flex flex-col w-[358px] sm:w-[1485px] sm:px-[250px]  gap-[40px]">
+          <p className="font-mauline text-[40px] sm:text-[80px] leading-[40px] sm:leading-[104px] text-center text-black sm:w-[985px]">
             Be Part of the Experience With<br></br>
             <span className="text-[#D81159]">Our Exclusive Free Access!</span>
           </p>
-          <p className="text-[16px] md:text-[32px] text-center leading-[24px] md:leading-[40px] tracking-[2%] text-black font-maiandra md:w-[985px]">
+          <p className="text-[16px] sm:text-[32px] text-center leading-[24px] sm:leading-[40px] tracking-[2%] text-black font-maiandra sm:w-[985px]">
             Join GatherGram’s exclusive Free Access and explore everything our
             platform has to offer
           </p>
@@ -28,7 +28,7 @@ function Banner({ setShow, setShowContactMob }) {
           onClick={() => {
             setShow(true);
           }}
-          className="hidden md:block md:w-[480px] md:h-[84px] rounded-[50px] px-[24px] py-[16px] bg-[#D81159] shadow-[-8px_8px_0px_0px_#000000] font-maiandra text-[16px] md:text-[24px] leading-[32px] text-center text-[#FAFAFA]"
+          className="hidden sm:block sm:w-[480px] sm:h-[84px] rounded-[50px] px-[24px] py-[16px] bg-[#D81159] shadow-[-8px_8px_0px_0px_#000000] font-maiandra text-[16px] sm:text-[24px] leading-[32px] text-center text-[#FAFAFA]"
         >
           Register for Free Access
         </button>
@@ -36,13 +36,13 @@ function Banner({ setShow, setShowContactMob }) {
           onClick={() => {
             setShowContactMob(true);
           }}
-          className="md:hidden md:w-[480px] md:h-[84px] rounded-[50px] px-[24px] py-[16px] bg-[#D81159] shadow-[-8px_8px_0px_0px_#000000] font-maiandra text-[16px] md:text-[24px] leading-[32px] text-center text-[#FAFAFA]"
+          className="sm:hidden sm:w-[480px] sm:h-[84px] rounded-[50px] px-[24px] py-[16px] bg-[#D81159] shadow-[-8px_8px_0px_0px_#000000] font-maiandra text-[16px] sm:text-[24px] leading-[32px] text-center text-[#FAFAFA]"
         >
           Register for Free Access
         </button>
       </div>
 
-      <div className="hidden md:block">
+      <div className="hidden sm:block">
         {/* images */}
 
         <div className="absolute top-[254px] left-[27px] w-[220px] h-[220px] bg-img01 bg-cover bg-center rounded-full shadow-[0px_0px_20px_0px_#00000040]"></div>
